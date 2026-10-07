@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Escríbenos para solicitar información sobre nuestros servicios.">
+  <title>Contacto | ConcientizaTeam</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========== ENCABEZADO (igual en todas las páginas) ========== -->
+  <header class="sitio-encabezado" id="encabezado-sitio">
+    <div class="contenedor">
+      <a class="sitio-marca" href="index.html" id="marca-sitio">
+        <img src="img/logo.png" alt="Logo de ConcientizaTeam" width="52" height="52">
+        <span>ConcientizaTeam</span>
+      </a>
+
+      <nav id="menu-principal" class="sitio-menu" aria-label="Menú principal">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="contacto.html" aria-current="page">Contacto</a></li>
+          <li><a class="sitio-menu-login" href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido-principal">
+
+    <section class="titulo-pagina" id="cabecera-pagina">
+      <div class="contenedor">
+        <h2>Contacto</h2>
+        <p>Escríbenos y te responderemos lo antes posible.</p>
+      </div>
+    </section>
+
+    <section class="seccion" id="contacto">
+      <div class="contenedor contacto-columnas">
+
+        <!-- ========== FORMULARIO ========== -->
+        <div class="panel" id="panel-formulario">
+          <h2>Envíanos un mensaje</h2>
+
+          <form class="formulario" id="form-contacto" action="#" method="post">
+            <div class="formulario-campo">
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="nombre" autocomplete="name" required>
+            </div>
+
+            <div class="formulario-campo">
+              <label for="correo">Correo electrónico</label>
+              <input type="email" id="correo" name="correo" autocomplete="email" required>
+            </div>
+
+            <div class="formulario-campo">
+              <label for="asunto">Asunto</label>
+              <input type="text" id="asunto" name="asunto" required>
+            </div>
+
+            <div class="formulario-campo">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+            </div>
+
+            <button type="submit">Enviar mensaje</button>
+          </form>
+        </div>
+
+        <!-- ========== INFORMACIÓN DE CONTACTO ========== -->
+        <aside class="panel" id="panel-informacion">
+          <h2>Información de contacto</h2>
+          <ul class="contacto-info" id="datos-contacto">
+            <li><strong>Correo</strong> contacto@concientizateam.com</li>
+            <li><strong>Teléfono</strong> +51 999 999 999</li>
+            <li><strong>Dirección</strong> Lima, Perú</li>
+            <li><strong>Horario</strong> Lunes a viernes, 9:00 a. m. a 6:00 p. m.</li>
+          </ul>
+
+          <h3>Enlace de interés</h3>
+          <p>
+            Conoce más sobre seguridad y salud en el trabajo en el sitio de la
+            <a href="https://www.gob.pe/sunafil" target="_blank" rel="noopener noreferrer">SUNAFIL (Perú)</a>.
+          </p>
+        </aside>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== PIE DE PÁGINA (igual en todas las páginas) ========== -->
+  <footer class="sitio-pie" id="pie-sitio">
+    <div class="contenedor sitio-pie-columnas">
+      <div id="pie-institucion">
+        <h3>ConcientizaTeam</h3>
+        <p>Capacitación y concienciación para el personal de las organizaciones.</p>
+      </div>
+      <div id="pie-navegacion">
+        <h3>Navegación</h3>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div id="pie-contacto">
+        <h3>Contacto</h3>
+        <p>contacto@concientizateam.com</p>
+        <p>Lima, Peru</p>
+        <p>Lunes a viernes, 9:00 a. m. a 6:00 p. m.</p>
+      </div>
+    </div>
+    <div class="sitio-pie-copyright" id="pie-copyright">
+      <p>&copy; 2026 ConcientizaTeam. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

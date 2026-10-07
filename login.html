@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Accede a tu cuenta de ConcientizaTeam.">
+  <title>Iniciar sesión | ConcientizaTeam</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========== ENCABEZADO (igual en todas las páginas) ========== -->
+  <header class="sitio-encabezado" id="encabezado-sitio">
+    <div class="contenedor">
+      <a class="sitio-marca" href="index.html" id="marca-sitio">
+        <img src="img/logo.png" alt="Logo de ConcientizaTeam" width="52" height="52">
+        <span>ConcientizaTeam</span>
+      </a>
+
+      <nav id="menu-principal" class="sitio-menu" aria-label="Menú principal">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a class="sitio-menu-login" href="login.html" aria-current="page">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido-principal">
+
+    <section class="titulo-pagina" id="cabecera-pagina">
+      <div class="contenedor">
+        <h2>Iniciar sesión</h2>
+        <p>Ingresa tus datos para acceder a tu cuenta.</p>
+      </div>
+    </section>
+
+    <section class="seccion" id="acceso">
+      <div class="contenedor">
+        <div class="panel panel-login" id="panel-acceso">
+          <form class="formulario" id="form-login" action="#" method="post">
+            <div class="formulario-campo">
+              <label for="login-correo">Correo electrónico</label>
+              <input type="email" id="login-correo" name="correo" autocomplete="email" required>
+            </div>
+
+            <div class="formulario-campo">
+              <label for="login-clave">Contraseña</label>
+              <input type="password" id="login-clave" name="clave" autocomplete="current-password" required>
+            </div>
+
+            <div class="formulario-opcion">
+              <input type="checkbox" id="recordar" name="recordar">
+              <label for="recordar">Recordarme en este equipo</label>
+            </div>
+
+            <button type="submit">Ingresar</button>
+
+            <p class="formulario-ayuda">¿Necesitas ayuda para acceder? <a href="contacto.html">Escríbenos</a>.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== PIE DE PÁGINA (igual en todas las páginas) ========== -->
+  <footer class="sitio-pie" id="pie-sitio">
+    <div class="contenedor sitio-pie-columnas">
+      <div id="pie-institucion">
+        <h3>ConcientizaTeam</h3>
+        <p>Capacitación y concienciación para el personal de las organizaciones.</p>
+      </div>
+      <div id="pie-navegacion">
+        <h3>Navegación</h3>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div id="pie-contacto">
+        <h3>Contacto</h3>
+        <p>contacto@concientizateam.com</p>
+        <p>Lima, Perú</p>
+        <p>Lunes a viernes, 9:00 a. m. a 6:00 p. m.</p>
+      </div>
+    </div>
+    <div class="sitio-pie-copyright" id="pie-copyright">
+      <p>&copy; 2026 ConcientizaTeam. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
